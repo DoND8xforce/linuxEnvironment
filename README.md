@@ -78,6 +78,11 @@
 - make -j32
 - sudo make install
 - Install to /usr/local/qwt-6.3.0/
+- Add library to system:
+    - cd ~
+    - nano ~/.bashrc
+    - export LD_LIBRARY_PATH=/usr/local/qwt-6.3.0/lib:$LD_LIBRARY_PATH
+    - source ~/.bashrc
 
 ### QT Design Studio (optional)
 - sudo apt-get install -y libxcb-cursor-dev
